@@ -1,0 +1,19 @@
+.about-block>p{
+    max-width: 80vw;
+    width: 1000px;
+    font-size: 20px;
+    color: rgb(240, 240, 240)
+}
+.about-block>h3 {
+    color: rgb(240, 240, 240)
+}
+.about-block{
+    margin-top: 20px;
+    background-color: rgba(30, 30, 30, 0.5);
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 40px;
+    
+}

@@ -1,0 +1,80 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 7vw);
+    grid-gap: 15px;
+    width: 75vw;
+    height: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+@keyframes upscale {
+    0% { 
+        transform: scale(0.91);  
+    } 
+    100% { 
+        transform: scale(1); 
+    }
+}
+
+.gallery__item:hover {
+    
+    background-position: center;
+    background-size: cover;
+}
+.gallery_item>i{
+    
+}
+
+.gallery__item {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url("./C0001_00_02_18_08_Still002.jpg");
+}
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url("./C0001_00_00_09_23_Still001.jpg");
+}
+.gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    background-image: url("./C0039_00_07_43_06_Still011.jpg");
+}
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-image: url("./C0001_00_00_44_04_Still002.jpg");
+}
+
+.gallery__item--1:hover {
+    background-image: url("../new/city.gif");
+}
+.gallery__item--2:hover {
+    background-image: url("../new/garden.gif");
+}
+.gallery__item--3:hover {
+    background-image: url("../new/knights.gif");
+}
+.gallery__item--4:hover {
+    background-image: url("../new/bar.gif");
+}

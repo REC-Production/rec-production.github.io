@@ -1,0 +1,42 @@
+.price-block{
+    min-height: 80vh;
+    max-height: max-content;
+    background-color: rgba(30, 30, 30, 0.9);
+    width: max-content;
+    max-width: 85vw;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: auto;
+    margin-right: 7%;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.zalupa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.zalupa>p{
+    color: rgb(230, 230, 230);
+    max-width: 70vw;
+    width: 600px;
+    font-size: 20px;
+    text-align: left;
+    text-align: center;;
+}
+.zalupa>ul>li{
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    max-width: 80vw;
+}
+.zalupa>h3{
+    color: rgb(230, 230, 230);
+    text-align: center;
+}

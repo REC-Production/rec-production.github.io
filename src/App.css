@@ -1,0 +1,92 @@
+.app-container {
+    background-image: url("../src/govnaPaket/equip/6.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.card-container {
+    background-image: url("./new/main.gif");
+    background-size: cover;
+    background-position: center;
+
+    width: 99, 5vw;
+    min-height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+.works-container {
+    background-color: rgba(30, 30, 30, 0.9);
+    width: 99, 5vw;
+    height: min-content;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+}
+.works-container>h1{
+    color:rgb(240, 240, 240)
+}
+.equip-container {
+    background-color: transparent;
+    min-height: 100vh;
+    padding-top: 10vh;
+}
+.price-container {
+    background-image: url("./govnaPaket/price/1.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.mail-container {
+    background-color: brown;
+}
+
+@keyframes breathePointer {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+.fa-angle-double-down {
+    color: white;
+    font-size: 40px;
+    animation-name: breathePointer;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.pointer {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+    width: min-content;
+}
+.pointer > .fa {
+    color: crimson;
+}
+
+.section-header {
+    margin-bottom: 2vw;
+    font-size: 5vh;
+}
+
+.section-header-white {
+    margin-bottom: 40px;
+    color: rgb(240, 240, 240);
+}
